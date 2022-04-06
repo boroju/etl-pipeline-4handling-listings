@@ -1,9 +1,3 @@
-"""
-mls_listings_curated.py
-Author: Randall Gonzalez
-Created: 2021-01-01
-Desc: 
-"""
 ## -------- SOLUTION NOTES ----------------
 ##
 import sys
