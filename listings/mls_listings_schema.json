@@ -1,0 +1,802 @@
+{
+    "fields": [	
+        {
+            "name": "created_datetime",
+            "type": "timestamp",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "mls",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },			
+        {
+            "name": "mls_listing_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "street_address",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },		
+        {
+            "name": "unit_type",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "unit",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "city",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },		
+        {
+            "name": "state",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        }, 		
+        {
+            "name": "zip",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },		
+        {
+            "name": "latitude",
+            "type": "decimal(9,6)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "longitude",
+            "type": "decimal(9,6)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "legal_description",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "subdivision",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "lot",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "block",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "legal_tract",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "book",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "section",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "township",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "range",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "apn",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "county_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "fips",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "census_tract_geo_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "school_district",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "property_type",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "property_sub_type",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "property_description",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "lot_size_acres",
+            "type": "decimal(16,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "lot_size_sq_ft",
+            "type": "decimal(16,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "zoning",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "restrictions",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "easements",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "water_source",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "septic_sewer",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "sfha",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "gated_community",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "hoa",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "hoa_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "hoa_management_co",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "hoa_management_co_phone",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "occupant_type",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "ownership_type",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "owner_type",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "owner_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "owner_phone",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "year_built",
+            "type": "short",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "year_updated",
+            "type": "short",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "number_of_units",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "living_area_sq_ft",
+            "type": "decimal(16,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "living_area_sq_ft_source",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "building_style",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "stories",
+            "type": "decimal(8,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "beds",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "full_baths",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "half_baths",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "basement",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "finished_basement_pct",
+            "type": "decimal(8,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "garage_type",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "garage_style",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "garage_spaces",
+            "type": "decimal(16,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "roof_type",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "exterior_material",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "foundation",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "pool",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "condition",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "property_tax_appraisal",
+            "type": "decimal(16,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "property_tax",
+            "type": "decimal(16,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "property_tax_year",
+            "type": "short",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "hoa_dues",
+            "type": "decimal(16,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "hoa_dues_frequency",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "hoa_dues_description",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "rent_sale",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "entry_date",
+            "type": "date",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_date",
+            "type": "date",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_status",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_status_detail",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "status_date",
+            "type": "date",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "current_price",
+            "type": "decimal(16,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "current_price_as_of_date",
+            "type": "date",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "orig_price",
+            "type": "decimal(16,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "orig_listing_date",
+            "type": "date",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "contract_date",
+            "type": "date",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "closed_price",
+            "type": "decimal(16,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "closed_date",
+            "type": "date",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "days_on_market",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "dom_date",
+            "type": "timestamp",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "cumulative_days_on_market",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "sale_circumstances",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_conditions",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_url",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_image_url",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_image_url_count",
+            "type": "integer",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_image_url_date",
+            "type": "date",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "loan_amount",
+            "type": "decimal(16,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "public_remarks",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "realtor_remarks",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_broker_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_broker_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_agent_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_agent_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_agent_phone",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "listing_agent_email",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "brokerage_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "brokerage_phone",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "selling_agent_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "selling_agent_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "commissions",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "buyer_agent_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "buyer_agent_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "buyer_commission_pct",
+            "type": "decimal(8,4)",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "street_address_raw",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "city_raw",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "state_raw",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "zip_raw",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+		{
+            "name": "asg_primary_id",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+        },			
+		{
+            "name": "asg_primary_id_final_flag",
+            "type": "boolean",
+            "nullable": true,
+            "metadata": {}
+        },
+		{
+            "name": "asg_primary_id_source",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+		{
+            "name": "asg_primary_id_source_queried_timestamp",
+            "type": "timestamp",
+            "nullable": true,
+            "metadata": {}
+        },
+		{
+            "name": "asg_primary_id_source_responded_flag",
+            "type": "boolean",
+            "nullable": true,
+            "metadata": {}
+        },
+		{
+            "name": "asg_primary_id_issue_text",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+		{
+            "name": "asg_primary_id_mssql_fixed_flag",
+            "type": "boolean",
+            "nullable": true,
+            "metadata": {}
+        },
+		{
+            "name": "asg_primary_id_updated_flag",
+            "type": "boolean",
+            "nullable": true,
+            "metadata": {}
+        },	
+		{
+            "name": "asg_primary_id_updated_timestamp",
+            "type": "timestamp",
+            "nullable": true,
+            "metadata": {}
+        },	
+		{
+            "name": "asg_primary_id_previous_value",
+            "type": "long",
+            "nullable": true,
+            "metadata": {}
+        },	
+		{
+            "name": "asg_primary_id_load_status",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },			
+		{
+            "name": "source",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },		
+        {
+            "name": "source_reference",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "source_listing_id",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "source_as_of_date",
+            "type": "timestamp",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "create_timestamp",
+            "type": "timestamp",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "update_timestamp",
+            "type": "timestamp",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "load_date",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        }
+    ]
+}
