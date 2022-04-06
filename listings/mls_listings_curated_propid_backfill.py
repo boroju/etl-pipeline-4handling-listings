@@ -1,9 +1,3 @@
-"""
-mls_listings_curated_propid_backfill.py
-Author: Randall Gonzalez
-Created: 2021-08-25
-Desc: 
-"""
 ## -------- SOLUTION NOTES ----------------
 ## >> Script to backfill asg_primary_id column of mls.listings, either first time or on an ongoing basis.
 
